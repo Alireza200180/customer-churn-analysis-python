@@ -138,51 +138,13 @@ Compared total charges between churned and retained customers.
 - Encourage high-risk customers to switch from electronic check to more stable payment methods.
 - Monitor customers with high monthly charges and provide targeted offers or service improvements.
 
-## Project Structure
-
-```text
-customer-churn-analysis-python/
-│
-├── README.md
-├── customer_churn_analysis.ipynb
-│
-├── data/
-│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
-│
-└── assets/
-    └── charts/
-        ├── churn_distribution.png
-        ├── churn_by_contract_type.png
-        ├── churn_by_payment_method.png
-        ├── churn_by_tenure_group.png
-        └── monthly_charges_by_churn.png
-```
-
-## How to Run This Project
-
-1. Clone or download this repository.
-2. Place the dataset file inside the `data/` folder.
-3. Open `customer_churn_analysis.ipynb` in Jupyter Notebook.
-4. Run the notebook cells from top to bottom.
-
-Make sure the dataset path in the notebook is:
-
-```python
-df = pd.read_csv("data/WA_Fn-UseC_-Telco-Customer-Churn.csv")
-```
-
 ## Project Files
 
-- `customer_churn_analysis.ipynb`: Main Jupyter Notebook containing data cleaning, analysis, visualizations, insights, and recommendations.
-- `data/`: Folder for the dataset file.
-- `assets/charts/`: Folder for exported chart images used in this README.
-
-## Resume Description
-
-Customer Churn Analysis — Python Data Analysis Project
-
-- Analyzed customer churn data using Python to identify key factors related to customer retention and cancellation behavior.
-- Performed data cleaning, exploratory data analysis, and visualized churn patterns across contract type, tenure, payment method, and monthly charges.
-- Generated business insights and recommendations to support customer retention strategies.
-
-Tools: Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook
+- `README.md`: Project documentation, including overview, workflow, insights, recommendations, and visualizations.
+- `customer_churn_analysis.ipynb`: Main Jupyter Notebook containing data cleaning, exploratory data analysis, charts, insights, and business recommendations.
+- `data/WA_Fn-UseC_-Telco-Customer-Churn.csv`: Dataset used for the customer churn analysis.
+- `assets/charts/churn_distribution.png`: Chart showing the overall churn distribution.
+- `assets/charts/churn_by_contract_type.png`: Chart showing churn rate by contract type.
+- `assets/charts/churn_by_payment_method.png`: Chart showing churn rate by payment method.
+- `assets/charts/churn_by_tenure_group.png`: Chart showing churn rate by tenure group.
+- `assets/charts/monthly_charges_by_churn.png`: Chart comparing monthly charges by churn status.
