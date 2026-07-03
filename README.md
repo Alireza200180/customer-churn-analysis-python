@@ -100,6 +100,28 @@ Compared monthly charges between churned and retained customers.
 
 Compared total charges between churned and retained customers.
 
+## Visualizations
+
+### Churn Distribution
+
+![Churn Distribution](assets/charts/churn_distribution.png)
+
+### Churn Rate by Contract Type
+
+![Churn Rate by Contract Type](assets/charts/churn_by_contract_type.png)
+
+### Churn Rate by Payment Method
+
+![Churn Rate by Payment Method](assets/charts/churn_by_payment_method.png)
+
+### Churn Rate by Tenure Group
+
+![Churn Rate by Tenure Group](assets/charts/churn_by_tenure_group.png)
+
+### Monthly Charges by Churn Status
+
+![Monthly Charges by Churn Status](assets/charts/monthly_charges_by_churn.png)
+
 ## Key Insights
 
 - Customers with month-to-month contracts showed the highest churn rate.
@@ -116,7 +138,7 @@ Compared total charges between churned and retained customers.
 - Encourage high-risk customers to switch from electronic check to more stable payment methods.
 - Monitor customers with high monthly charges and provide targeted offers or service improvements.
 
-## Project Files
+## Project Structure
 
 ```text
 customer-churn-analysis-python/
@@ -124,8 +146,16 @@ customer-churn-analysis-python/
 ├── README.md
 ├── customer_churn_analysis.ipynb
 │
-└── data/
-    └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+├── data/
+│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│
+└── assets/
+    └── charts/
+        ├── churn_distribution.png
+        ├── churn_by_contract_type.png
+        ├── churn_by_payment_method.png
+        ├── churn_by_tenure_group.png
+        └── monthly_charges_by_churn.png
 ```
 
 ## How to Run This Project
@@ -140,6 +170,12 @@ Make sure the dataset path in the notebook is:
 ```python
 df = pd.read_csv("data/WA_Fn-UseC_-Telco-Customer-Churn.csv")
 ```
+
+## Project Files
+
+- `customer_churn_analysis.ipynb`: Main Jupyter Notebook containing data cleaning, analysis, visualizations, insights, and recommendations.
+- `data/`: Folder for the dataset file.
+- `assets/charts/`: Folder for exported chart images used in this README.
 
 ## Resume Description
 
