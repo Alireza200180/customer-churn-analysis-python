@@ -1,4 +1,4 @@
-# Customer Churn Analysis — Python Data Analysis Project
+# Customer Churn Analysis - Python Data Analysis Project
 
 ## Overview
 
